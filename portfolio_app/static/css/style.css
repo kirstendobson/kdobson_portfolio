@@ -6,6 +6,7 @@
     animation-duration: 2s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
+    width: 100%;
 }
 @keyframes gradient {
     0% {
@@ -20,4 +21,8 @@
 }
 #main > img {
     width: 30%;
+}
+#main > h1 {
+    color:white;
+    font-family: sans-serif;
 }
