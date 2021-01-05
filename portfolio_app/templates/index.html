@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="nav">
+            <div id="nav_left">
+                <img src="{% static 'img/logo.png' %}" alt="Logo">
+            </div>
+            <div id="nav_right">
+                <a href="">Link 1</a>
+                <a href="">Link 2</a>
+                <a href="">Link 3</a>
+            </div>
+        </div>
+        <div id="main">
+            <h1>Hi there! I'm Kirsten Dobson, <br> a Full Stack Developer.</h1>
+            <img src="{% static 'img/circle.png' %}" alt="">
+            <h1>Welcome to my portfolio.</h1>
+        </div>
+    </div>
+</body>
+</html>
