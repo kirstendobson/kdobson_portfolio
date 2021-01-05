@@ -1,8 +1,11 @@
 #main {
     text-align: center;
-    background: radial-gradient(farthest-corner at 100% 100%, #F5E3E0, #E8B4BC, #D282A6, #6E4555);
+    background: radial-gradient(farthest-corner at 100% 100%, #F5E3E0, #E8B4BC, #D282A6, #6E4555, #3A3238);
     background-size: 200% 200%;
-    animation: gradient 15s ease infinite;
+    animation-name: gradient;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
 @keyframes gradient {
     0% {
